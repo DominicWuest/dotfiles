@@ -10,6 +10,10 @@ exec_always --no-startup-id "feh --bg-fill /home/dominic/Pictures/wallpapers/spa
 bindsym $mod+Ctrl+1 exec --no-startup-id "setxkbmap us"
 bindsym $mod+Ctrl+2 exec --no-startup-id "setxkbmap ch"
 
+# Setting Screen Layout
+bindsym $mod+Mod1+1 exec --no-startup-id "~/.screenlayout/main.sh"
+bindsym $mod+Mod1+2 exec --no-startup-id "~/.screenlayout/home.sh"
+
 # Lock screen with meta+p
 bindsym $mod+p exec --no-startup-id "dm-tool lock && systemctl suspend"
 
