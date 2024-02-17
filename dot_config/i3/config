@@ -14,6 +14,10 @@ bindsym $mod+Ctrl+2 exec --no-startup-id "setxkbmap ch"
 bindsym $mod+Mod1+1 exec --no-startup-id "~/.screenlayout/main.sh"
 bindsym $mod+Mod1+2 exec --no-startup-id "~/.screenlayout/home.sh"
 
+# move focused workspace between monitors
+bindsym $mod+Shift+greater move workspace to output right
+bindsym $mod+Shift+less move workspace to output left
+
 # Lock screen with meta+p
 bindsym $mod+p exec --no-startup-id "dm-tool lock && systemctl suspend"
 
