@@ -127,6 +127,7 @@ alias lh='ls --color=always -lah'
 alias k='kubectl'
 alias duck='docker compose up --build'
 alias clip='xclip -sel c'
+alias goch='go mod tidy && go vet ./... && staticcheck ./...'
 
 # ENV vars
 export GOBIN=/home/dominic/go/bin
