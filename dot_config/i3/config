@@ -13,6 +13,7 @@ bindsym $mod+Ctrl+2 exec --no-startup-id "setxkbmap ch"
 # Setting Screen Layout
 bindsym $mod+Mod1+1 exec --no-startup-id "~/.screenlayout/main.sh"
 bindsym $mod+Mod1+2 exec --no-startup-id "~/.screenlayout/home.sh"
+bindsym $mod+Mod1+3 exec --no-startup-id "~/.screenlayout/no.sh"
 
 # move focused workspace between monitors
 bindsym $mod+Shift+greater move workspace to output right
