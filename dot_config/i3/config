@@ -26,6 +26,7 @@ bindsym $mod+n exec --no-startup-id "nmcli device wifi rescan"
 
 # Lock screen with meta+p
 bindsym $mod+p exec --no-startup-id "dm-tool lock && systemctl suspend"
+bindsym $mod+Shift+p exec --no-startup-id "i3lock -i ~/Pictures/lock-screen.png"
 
 # Starting urxvt on startup
 exec --no-startup-id i3-msg "workspace 3; exec firefox; workspace 2; exec code; workspace 1; exec urxvt;"
